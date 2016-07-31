@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E85181D47669E003E6F4A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E85171D47669E003E6F4A /* TabBarViewController.swift */; };
+		0441515C1D4899AF000AAF65 /* compose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441515A1D4899AF000AAF65 /* compose.storyboard */; };
+		046177341D4C4181002D03FC /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046177331D4C4181002D03FC /* NavigationViewController.swift */; };
+		046177381D4C8B2B002D03FC /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046177371D4C8B2B002D03FC /* TitleView.swift */; };
+		0461773C1D4C9100002D03FC /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461773A1D4C9100002D03FC /* PopoverViewController.swift */; };
+		0461773D1D4C9100002D03FC /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0461773B1D4C9100002D03FC /* PopoverViewController.xib */; };
+		0461773F1D4C9F87002D03FC /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461773E1D4C9F87002D03FC /* PresentationController.swift */; };
+		046177411D4CC415002D03FC /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046177401D4CC415002D03FC /* PopoverAnimator.swift */; };
 		046242B91D3C7317005284B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046242B81D3C7317005284B1 /* AppDelegate.swift */; };
-		046242BB1D3C7317005284B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046242BA1D3C7317005284B1 /* ViewController.swift */; };
 		046242BE1D3C7317005284B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046242BC1D3C7317005284B1 /* Main.storyboard */; };
 		046242C01D3C7317005284B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046242BF1D3C7317005284B1 /* Assets.xcassets */; };
 		046242C31D3C7317005284B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046242C11D3C7317005284B1 /* LaunchScreen.storyboard */; };
 		046242CE1D3C7317005284B1 /* WeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046242CD1D3C7317005284B1 /* WeiBoTests.swift */; };
 		046242D91D3C7317005284B1 /* WeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046242D81D3C7317005284B1 /* WeiBoUITests.swift */; };
+		0480C66A1D477C5300C88797 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480C6681D477C5300C88797 /* Home.storyboard */; };
+		0480C66C1D477C7100C88797 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480C66B1D477C7100C88797 /* Discover.storyboard */; };
+		0480C66F1D477C8600C88797 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480C66D1D477C8600C88797 /* Message.storyboard */; };
+		0480C6711D477C9D00C88797 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480C6701D477C9D00C88797 /* Profile.storyboard */; };
+		0480C6731D477F6600C88797 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C6721D477F6600C88797 /* DiscoverViewController.swift */; };
+		0480C6751D477FE200C88797 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C6741D477FE200C88797 /* HomeViewController.swift */; };
+		0480C6791D47801400C88797 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C6781D47801400C88797 /* ProfileViewController.swift */; };
+		0480C67B1D47802E00C88797 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C67A1D47802E00C88797 /* MessageViewController.swift */; };
+		04956DA71D48C7FE0089BF4C /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04956DA61D48C7FE0089BF4C /* UIButton-Extension.swift */; };
+		04F1B13A1D49941900F3D786 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1B1391D49941900F3D786 /* BaseViewController.swift */; };
+		04F1B13C1D49981200F3D786 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1B13B1D49981200F3D786 /* VisitorView.swift */; };
+		04F1B13E1D49984A00F3D786 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F1B13D1D49984A00F3D786 /* VisitorView.xib */; };
+		06F5D9D7CF57D9C6A1F124FB /* Pods_WeiBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7414C66C87A4EBC00025059 /* Pods_WeiBo.framework */; };
+		4C2135CD01B60BA70C32BF65 /* Pods_WeiBoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A135F347F1F90244BE34FC /* Pods_WeiBoTests.framework */; };
+		E92E73657DBE415FBD70E96D /* Pods_WeiBoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88E0247A19472DB9314C007 /* Pods_WeiBoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +56,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040E85171D47669E003E6F4A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0441515B1D4899AF000AAF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WeiBo/Base.lproj/compose.storyboard; sourceTree = SOURCE_ROOT; };
+		046177331D4C4181002D03FC /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		046177371D4C8B2B002D03FC /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		0461773A1D4C9100002D03FC /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		0461773B1D4C9100002D03FC /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
+		0461773E1D4C9F87002D03FC /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		046177401D4CC415002D03FC /* PopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
 		046242B51D3C7317005284B1 /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		046242B81D3C7317005284B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		046242BA1D3C7317005284B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046242B81D3C7317005284B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		046242BD1D3C7317005284B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		046242BF1D3C7317005284B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046242BF1D3C7317005284B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		046242C21D3C7317005284B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		046242C41D3C7317005284B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046242C41D3C7317005284B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		046242C91D3C7317005284B1 /* WeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046242CD1D3C7317005284B1 /* WeiBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiBoTests.swift; sourceTree = "<group>"; };
 		046242CF1D3C7317005284B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046242D41D3C7317005284B1 /* WeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046242D81D3C7317005284B1 /* WeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiBoUITests.swift; sourceTree = "<group>"; };
 		046242DA1D3C7317005284B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0480C6691D477C5300C88797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WeiBo/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		0480C66B1D477C7100C88797 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Discover.storyboard; path = ../../../Other/Discover.storyboard; sourceTree = "<group>"; };
+		0480C66E1D477C8600C88797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WeiBo/Base.lproj/Message.storyboard; sourceTree = SOURCE_ROOT; };
+		0480C6701D477C9D00C88797 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../../../Other/Profile.storyboard; sourceTree = "<group>"; };
+		0480C6721D477F6600C88797 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		0480C6741D477FE200C88797 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0480C6781D47801400C88797 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0480C67A1D47802E00C88797 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		04956DA61D48C7FE0089BF4C /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		04F1B1391D49941900F3D786 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		04F1B13B1D49981200F3D786 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		04F1B13D1D49984A00F3D786 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		1A8D7A04D3253D2E14BFC1B9 /* Pods-WeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo.debug.xcconfig"; sourceTree = "<group>"; };
+		77323FA95E5C434E9AA6B2C7 /* Pods-WeiBoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBoTests/Pods-WeiBoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0A135F347F1F90244BE34FC /* Pods_WeiBoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiBoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D90E4A01963698A83C01ED /* Pods-WeiBoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBoUITests/Pods-WeiBoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B83350DC4BBDF3097F4B5B0E /* Pods-WeiBoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBoTests/Pods-WeiBoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD733EE5B976963E4464BAE3 /* Pods-WeiBoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBoUITests/Pods-WeiBoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7414C66C87A4EBC00025059 /* Pods_WeiBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88E0247A19472DB9314C007 /* Pods_WeiBoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiBoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F119F748A8AFE4F376AD2EA7 /* Pods-WeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F5D9D7CF57D9C6A1F124FB /* Pods_WeiBo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2135CD01B60BA70C32BF65 /* Pods_WeiBoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +120,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92E73657DBE415FBD70E96D /* Pods_WeiBoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0441515D1D48B759000AAF65 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				0441515E1D48B759000AAF65 /* Controller */,
+				0441515F1D48B759000AAF65 /* Model */,
+				044151601D48B759000AAF65 /* View */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		0441515E1D48B759000AAF65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0441515A1D4899AF000AAF65 /* compose.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0441515F1D48B759000AAF65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044151601D48B759000AAF65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046177391D4C90E6002D03FC /* UIPopover */ = {
+			isa = PBXGroup;
+			children = (
+				0461773A1D4C9100002D03FC /* PopoverViewController.swift */,
+				0461773B1D4C9100002D03FC /* PopoverViewController.xib */,
+				0461773E1D4C9F87002D03FC /* PresentationController.swift */,
+				046177401D4CC415002D03FC /* PopoverAnimator.swift */,
+			);
+			path = UIPopover;
+			sourceTree = "<group>";
+		};
 		046242AC1D3C7317005284B1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +177,8 @@
 				046242CC1D3C7317005284B1 /* WeiBoTests */,
 				046242D71D3C7317005284B1 /* WeiBoUITests */,
 				046242B61D3C7317005284B1 /* Products */,
+				B0064A8EA709003AEBAAE486 /* Pods */,
+				A28B39B7D1B907BBC0DA39AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +195,8 @@
 		046242B71D3C7317005284B1 /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				046242B81D3C7317005284B1 /* AppDelegate.swift */,
-				046242BA1D3C7317005284B1 /* ViewController.swift */,
-				046242BC1D3C7317005284B1 /* Main.storyboard */,
-				046242BF1D3C7317005284B1 /* Assets.xcassets */,
-				046242C11D3C7317005284B1 /* LaunchScreen.storyboard */,
-				046242C41D3C7317005284B1 /* Info.plist */,
+				046242E61D3C7DCC005284B1 /* Classes */,
+				046242FE1D3C7E7A005284B1 /* Other */,
 			);
 			path = WeiBo;
 			sourceTree = "<group>";
@@ -125,6 +219,266 @@
 			path = WeiBoUITests;
 			sourceTree = "<group>";
 		};
+		046242E61D3C7DCC005284B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04F1B1361D4993DA00F3D786 /* Visitor */,
+				0441515D1D48B759000AAF65 /* Compose */,
+				046242E71D3C7DCC005284B1 /* Discover */,
+				046242EB1D3C7DCC005284B1 /* Home */,
+				046242EF1D3C7DCC005284B1 /* Main */,
+				046242F41D3C7DCC005284B1 /* Message */,
+				046242F81D3C7DCC005284B1 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		046242E71D3C7DCC005284B1 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				046242E81D3C7DCC005284B1 /* Controller */,
+				046242E91D3C7DCC005284B1 /* Model */,
+				046242EA1D3C7DCC005284B1 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		046242E81D3C7DCC005284B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0480C66B1D477C7100C88797 /* Discover.storyboard */,
+				0480C6721D477F6600C88797 /* DiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		046242E91D3C7DCC005284B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046242EA1D3C7DCC005284B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046242EB1D3C7DCC005284B1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				046242EC1D3C7DCC005284B1 /* Controller */,
+				046242ED1D3C7DCC005284B1 /* Model */,
+				046242EE1D3C7DCC005284B1 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		046242EC1D3C7DCC005284B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				046177391D4C90E6002D03FC /* UIPopover */,
+				0480C6681D477C5300C88797 /* Home.storyboard */,
+				0480C6741D477FE200C88797 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		046242ED1D3C7DCC005284B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046242EE1D3C7DCC005284B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046177371D4C8B2B002D03FC /* TitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046242EF1D3C7DCC005284B1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04956DA51D48C7AF0089BF4C /* Category */,
+				046242F01D3C7DCC005284B1 /* Controller */,
+				046242F11D3C7DCC005284B1 /* Lib */,
+				046242F21D3C7DCC005284B1 /* Model */,
+				046242F31D3C7DCC005284B1 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		046242F01D3C7DCC005284B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040E85171D47669E003E6F4A /* TabBarViewController.swift */,
+				046177331D4C4181002D03FC /* NavigationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		046242F11D3C7DCC005284B1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		046242F21D3C7DCC005284B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046242F31D3C7DCC005284B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046242F41D3C7DCC005284B1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				046242F51D3C7DCC005284B1 /* Controller */,
+				046242F61D3C7DCC005284B1 /* Model */,
+				046242F71D3C7DCC005284B1 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		046242F51D3C7DCC005284B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0480C66D1D477C8600C88797 /* Message.storyboard */,
+				0480C67A1D47802E00C88797 /* MessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		046242F61D3C7DCC005284B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046242F71D3C7DCC005284B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046242F81D3C7DCC005284B1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				046242F91D3C7DCC005284B1 /* Controller */,
+				046242FA1D3C7DCC005284B1 /* Model */,
+				046242FB1D3C7DCC005284B1 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		046242F91D3C7DCC005284B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0480C6701D477C9D00C88797 /* Profile.storyboard */,
+				0480C6781D47801400C88797 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		046242FA1D3C7DCC005284B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046242FB1D3C7DCC005284B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046242FE1D3C7E7A005284B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				046242B81D3C7317005284B1 /* AppDelegate.swift */,
+				046242BC1D3C7317005284B1 /* Main.storyboard */,
+				046242BF1D3C7317005284B1 /* Assets.xcassets */,
+				046242C11D3C7317005284B1 /* LaunchScreen.storyboard */,
+				046242C41D3C7317005284B1 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		04956DA51D48C7AF0089BF4C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04956DA61D48C7FE0089BF4C /* UIButton-Extension.swift */,
+			);
+			name = Category;
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		04F1B1361D4993DA00F3D786 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				04F1B1371D4993DA00F3D786 /* Controller */,
+				04F1B1381D4993DA00F3D786 /* View */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		04F1B1371D4993DA00F3D786 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04F1B1391D49941900F3D786 /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04F1B1381D4993DA00F3D786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04F1B13B1D49981200F3D786 /* VisitorView.swift */,
+				04F1B13D1D49984A00F3D786 /* VisitorView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A28B39B7D1B907BBC0DA39AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7414C66C87A4EBC00025059 /* Pods_WeiBo.framework */,
+				B0A135F347F1F90244BE34FC /* Pods_WeiBoTests.framework */,
+				E88E0247A19472DB9314C007 /* Pods_WeiBoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0064A8EA709003AEBAAE486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A8D7A04D3253D2E14BFC1B9 /* Pods-WeiBo.debug.xcconfig */,
+				F119F748A8AFE4F376AD2EA7 /* Pods-WeiBo.release.xcconfig */,
+				B83350DC4BBDF3097F4B5B0E /* Pods-WeiBoTests.debug.xcconfig */,
+				77323FA95E5C434E9AA6B2C7 /* Pods-WeiBoTests.release.xcconfig */,
+				B2D90E4A01963698A83C01ED /* Pods-WeiBoUITests.debug.xcconfig */,
+				CD733EE5B976963E4464BAE3 /* Pods-WeiBoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +486,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046242DD1D3C7317005284B1 /* Build configuration list for PBXNativeTarget "WeiBo" */;
 			buildPhases = (
+				B4D757D3FB30F08D166CAF52 /* [CP] Check Pods Manifest.lock */,
 				046242B11D3C7317005284B1 /* Sources */,
 				046242B21D3C7317005284B1 /* Frameworks */,
 				046242B31D3C7317005284B1 /* Resources */,
+				5EDE1A2ABF75D8A7A4D3CE37 /* [CP] Embed Pods Frameworks */,
+				DB8831EAEF84D8D82E730C28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +506,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046242E01D3C7317005284B1 /* Build configuration list for PBXNativeTarget "WeiBoTests" */;
 			buildPhases = (
+				CE126ADD66CBACDEB4C019D3 /* [CP] Check Pods Manifest.lock */,
 				046242C51D3C7317005284B1 /* Sources */,
 				046242C61D3C7317005284B1 /* Frameworks */,
 				046242C71D3C7317005284B1 /* Resources */,
+				367761C79FD0E5C4246E2C23 /* [CP] Embed Pods Frameworks */,
+				87CEFB9AA75435C28EB85096 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +527,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046242E31D3C7317005284B1 /* Build configuration list for PBXNativeTarget "WeiBoUITests" */;
 			buildPhases = (
+				0B795897534226BCD32AF7CC /* [CP] Check Pods Manifest.lock */,
 				046242D01D3C7317005284B1 /* Sources */,
 				046242D11D3C7317005284B1 /* Frameworks */,
 				046242D21D3C7317005284B1 /* Resources */,
+				1F86AFDCD2A89C571F9999B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,7 +593,14 @@
 			files = (
 				046242C31D3C7317005284B1 /* LaunchScreen.storyboard in Resources */,
 				046242C01D3C7317005284B1 /* Assets.xcassets in Resources */,
+				0480C66C1D477C7100C88797 /* Discover.storyboard in Resources */,
 				046242BE1D3C7317005284B1 /* Main.storyboard in Resources */,
+				0461773D1D4C9100002D03FC /* PopoverViewController.xib in Resources */,
+				0480C66F1D477C8600C88797 /* Message.storyboard in Resources */,
+				0480C6711D477C9D00C88797 /* Profile.storyboard in Resources */,
+				0441515C1D4899AF000AAF65 /* compose.storyboard in Resources */,
+				0480C66A1D477C5300C88797 /* Home.storyboard in Resources */,
+				04F1B13E1D49984A00F3D786 /* VisitorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +620,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B795897534226BCD32AF7CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F86AFDCD2A89C571F9999B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBoUITests/Pods-WeiBoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		367761C79FD0E5C4246E2C23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBoTests/Pods-WeiBoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EDE1A2ABF75D8A7A4D3CE37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CEFB9AA75435C28EB85096 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBoTests/Pods-WeiBoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D757D3FB30F08D166CAF52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE126ADD66CBACDEB4C019D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8831EAEF84D8D82E730C28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		046242B11D3C7317005284B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046242BB1D3C7317005284B1 /* ViewController.swift in Sources */,
+				0480C6731D477F6600C88797 /* DiscoverViewController.swift in Sources */,
+				04956DA71D48C7FE0089BF4C /* UIButton-Extension.swift in Sources */,
+				040E85181D47669E003E6F4A /* TabBarViewController.swift in Sources */,
+				0480C6791D47801400C88797 /* ProfileViewController.swift in Sources */,
+				0461773C1D4C9100002D03FC /* PopoverViewController.swift in Sources */,
 				046242B91D3C7317005284B1 /* AppDelegate.swift in Sources */,
+				04F1B13A1D49941900F3D786 /* BaseViewController.swift in Sources */,
+				04F1B13C1D49981200F3D786 /* VisitorView.swift in Sources */,
+				046177411D4CC415002D03FC /* PopoverAnimator.swift in Sources */,
+				0480C67B1D47802E00C88797 /* MessageViewController.swift in Sources */,
+				0461773F1D4C9F87002D03FC /* PresentationController.swift in Sources */,
+				046177381D4C8B2B002D03FC /* TitleView.swift in Sources */,
+				046177341D4C4181002D03FC /* NavigationViewController.swift in Sources */,
+				0480C6751D477FE200C88797 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +797,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0441515A1D4899AF000AAF65 /* compose.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0441515B1D4899AF000AAF65 /* Base */,
+			);
+			name = compose.storyboard;
+			path = ../../../Other;
+			sourceTree = "<group>";
+		};
 		046242BC1D3C7317005284B1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				046242BD1D3C7317005284B1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		046242C11D3C7317005284B1 /* LaunchScreen.storyboard */ = {
@@ -307,6 +821,25 @@
 				046242C21D3C7317005284B1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0480C6681D477C5300C88797 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480C6691D477C5300C88797 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../../Other;
+			sourceTree = "<group>";
+		};
+		0480C66D1D477C8600C88797 /* Message.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480C66E1D477C8600C88797 /* Base */,
+			);
+			name = Message.storyboard;
+			path = ../../../Other;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,28 +930,38 @@
 		};
 		046242DE1D3C7317005284B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8D7A04D3253D2E14BFC1B9 /* Pods-WeiBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.WeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		046242DF1D3C7317005284B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F119F748A8AFE4F376AD2EA7 /* Pods-WeiBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.WeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		046242E11D3C7317005284B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83350DC4BBDF3097F4B5B0E /* Pods-WeiBoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeiBoTests/Info.plist;
@@ -431,6 +974,7 @@
 		};
 		046242E21D3C7317005284B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77323FA95E5C434E9AA6B2C7 /* Pods-WeiBoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeiBoTests/Info.plist;
@@ -443,6 +987,7 @@
 		};
 		046242E41D3C7317005284B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D90E4A01963698A83C01ED /* Pods-WeiBoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WeiBoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +999,7 @@
 		};
 		046242E51D3C7317005284B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD733EE5B976963E4464BAE3 /* Pods-WeiBoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WeiBoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +1028,7 @@
 				046242DF1D3C7317005284B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046242E01D3C7317005284B1 /* Build configuration list for PBXNativeTarget "WeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +1037,7 @@
 				046242E21D3C7317005284B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046242E31D3C7317005284B1 /* Build configuration list for PBXNativeTarget "WeiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +1046,7 @@
 				046242E51D3C7317005284B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

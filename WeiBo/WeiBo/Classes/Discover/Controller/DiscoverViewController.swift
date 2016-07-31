@@ -8,6 +8,17 @@
 
 import UIKit
 
-class DiscoverViewController: UIViewController {
+class DiscoverViewController: BaseViewController {
+    
+    override func loadView() {
+        isLogin = true
 
+        super.loadView()
+        tableView.backgroundColor = UIColor ( red: 0.6, green: 0.4, blue: 0.2, alpha: 1.0 )
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
 }

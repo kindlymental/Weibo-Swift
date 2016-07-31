@@ -8,7 +8,7 @@
         <!--消息-->
         <scene sceneID="pjD-Gj-EPA">
             <objects>
-                <tableViewController id="dcU-8x-Ndy" sceneMemberID="viewController">
+                <tableViewController id="dcU-8x-Ndy" customClass="MessageViewController" customModule="WeiBo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="XFQ-Us-nAO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -14,8 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-            
-        UITabBar.appearance().tintColor = UIColor ( red: 0.4549, green: 0.7197, blue: 0.9994, alpha: 1.0 )
+        
+        // tabBar 背景颜色
+        UITabBar.appearance().barTintColor = UIColor.whiteColor()
+        // navigationBar 文字颜色
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
         
 //        window = UIWindow(frame: UIScreen.mainScreen().bounds)
 //        window?.rootViewController = TabBarViewController()
@@ -25,8 +28,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
 }
+
+// 定义全局变量
+let screenW = UIScreen.mainScreen().bounds.size.width
+let screenH = UIScreen.mainScreen().bounds.size.height
 
 // 使用字符串创建对象  (没用)
 func createObjectByString() {
@@ -65,11 +71,11 @@ func createObjectByString() {
  */
 func Log<T>(message : T ,file : String = #file, funcName : String = #function, lineNum : Int = #line) {
     
-    #if DEBUG
-        
+//    #if DEBUG
+    
         let fileName = (file as NSString).lastPathComponent
         print("\(fileName)-\(funcName)-\(lineNum):\(message)")
         
-    #endif
+//    #endif
 }
 

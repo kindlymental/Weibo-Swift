@@ -19,6 +19,7 @@ class TabBarViewController: UITabBarController {
         super.viewDidLoad()
         
         addComposeBtn()
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -28,6 +29,7 @@ class TabBarViewController: UITabBarController {
     
 }
 
+// MARK:- 界面设置
 extension TabBarViewController {
     // MARK:- 设置Tabbar  (SB中已设置) 在此处没有调用
     private func setupTabBarItemImage() {
@@ -61,5 +63,15 @@ extension TabBarViewController {
         composeBtn.sizeToFit()
         
         composeBtn.center = CGPointMake(tabBar.center.x, tabBar.bounds.size.height * 0.5)
+        
+        composeBtn.addTarget(self, action:#selector(TabBarViewController.composeBtnClick), forControlEvents: .TouchUpInside)
+    }
+}
+
+// MARK:- 事件监听
+extension TabBarViewController {
+    // MARK:- compose按钮监听
+    @objc private func composeBtnClick() {
+        
     }
 }

@@ -6,28 +6,9 @@
     </dependencies>
     <scenes>
         <!--首页-->
-        <scene sceneID="y6J-3l-crK">
-            <objects>
-                <tableViewController id="53U-9F-skm" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2tE-me-ysn">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <connections>
-                            <outlet property="dataSource" destination="53U-9F-skm" id="fiM-WR-a8y"/>
-                            <outlet property="delegate" destination="53U-9F-skm" id="GBE-ro-z11"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="首页" id="tdl-zf-K77"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cyq-7C-5WC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1199" y="-210"/>
-        </scene>
-        <!--首页-->
         <scene sceneID="JyZ-vL-WLd">
             <objects>
-                <navigationController title="首页" id="zor-7f-CkZ" sceneMemberID="viewController">
+                <navigationController title="首页" id="zor-7f-CkZ" customClass="NavigationViewController" customModule="WeiBo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="tabbar_home" selectedImage="tabbar_home_highlighted" id="bvc-0S-boP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="viH-R6-jWQ">
@@ -35,12 +16,31 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="53U-9F-skm" kind="relationship" relationship="rootViewController" id="xlr-kO-5fv"/>
+                        <segue destination="Urq-Kc-qiz" kind="relationship" relationship="rootViewController" id="Vby-Sj-qp9"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2c-Cf-Nfa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="485" y="-210"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="5Jf-eg-pAB">
+            <objects>
+                <viewController id="Urq-Kc-qiz" customClass="HomeViewController" customModule="WeiBo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GR8-N5-XTL"/>
+                        <viewControllerLayoutGuide type="bottom" id="KtD-P8-wc3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UgZ-gD-rsE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="QT4-Ea-b9J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XMg-ru-HXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1196" y="-210"/>
         </scene>
     </scenes>
     <resources>
