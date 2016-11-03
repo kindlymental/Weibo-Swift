@@ -11,7 +11,7 @@ import UIKit
 class BaseViewController: UITableViewController {
 
     // 访客视图标识
-    var isLogin : Bool = false
+    var isLogin : Bool = UserAccountTool.shareInstance.isLogin
     
     // 访客视图
     lazy var visitorView : VisitorView = VisitorView.visitorView()
@@ -27,7 +27,7 @@ class BaseViewController: UITableViewController {
         // visitor have login and register item on the navigationBar
         if isLogin == false && hasBarButtonItem == true {
             loadBarButtonItem()
-        }
+        } 
     }
     
     override func viewDidLoad() {
@@ -70,6 +70,10 @@ extension BaseViewController {
     
     // 登录
     @objc private func loginClick() {
-        Log("登录成功")
+        let oauthVc = OAuthViewController()
+        
+        let oauthNav = UINavigationController(rootViewController: oauthVc)
+        
+        presentViewController(oauthNav, animated: true, completion: nil)
     }
 }

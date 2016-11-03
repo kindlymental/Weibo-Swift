@@ -13,6 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var defaultViewController : UIViewController? {
+        let isLogin = UserAccountTool.shareInstance.isLogin
+        
+        return isLogin ? WelcomeViewController() : UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+    }
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         // tabBar 背景颜色
@@ -20,9 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // navigationBar 文字颜色
         UINavigationBar.appearance().tintColor = UIColor.orangeColor()
         
-//        window = UIWindow(frame: UIScreen.mainScreen().bounds)
-//        window?.rootViewController = TabBarViewController()
-//        window?.makeKeyAndVisible()
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.rootViewController = defaultViewController
+        window?.makeKeyAndVisible()
         
 //        createObjectByString()
         
@@ -71,11 +77,11 @@ func createObjectByString() {
  */
 func Log<T>(message : T ,file : String = #file, funcName : String = #function, lineNum : Int = #line) {
     
-//    #if DEBUG
+    #if DEBUG
     
         let fileName = (file as NSString).lastPathComponent
-        print("\(fileName)-\(funcName)-\(lineNum):\(message)")
+        print("\(fileName)-\(funcName)-\(lineNum)\n\n\(message)\n")
         
-//    #endif
+    #endif
 }
 

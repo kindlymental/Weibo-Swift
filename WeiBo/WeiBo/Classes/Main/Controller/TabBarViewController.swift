@@ -72,6 +72,8 @@ extension TabBarViewController {
 extension TabBarViewController {
     // MARK:- compose按钮监听
     @objc private func composeBtnClick() {
-        
+        let composeVc = ComposeViewController()
+        let compostNav = UINavigationController(rootViewController: composeVc)
+        presentViewController(compostNav, animated: true, completion: nil)
     }
 }

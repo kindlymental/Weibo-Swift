@@ -77,7 +77,7 @@ extension PopoverAnimator : UIViewControllerAnimatedTransitioning {
         transitionContext.containerView()?.addSubview(presentedView)
         // 执行动画
         presentedView.transform = CGAffineTransformMakeScale(1.0, 0.0)
-        presentedView.layer.anchorPoint = CGPointMake(0.5, 0)
+        presentedView.layer.anchorPoint = CGPointMake(0.5, 0)   // 锚点
         UIView.animateWithDuration(transitionDuration(transitionContext), animations: {
             presentedView.transform = CGAffineTransformIdentity
         }) { (_) in

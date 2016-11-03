@@ -16,6 +16,7 @@ class TitleView: UIButton {
         setImage(UIImage(named: "navigationbar_arrow_down"), forState: .Normal)
         setImage(UIImage(named: "navigationbar_arrow_up"), forState: .Selected)
         setTitleColor(UIColor.blackColor(), forState: .Normal)
+        titleLabel?.font = UIFont.systemFontOfSize(16)
         sizeToFit()
     }
     

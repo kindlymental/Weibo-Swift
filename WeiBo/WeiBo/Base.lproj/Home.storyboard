@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zor-7f-CkZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zor-7f-CkZ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Urq-Kc-qiz" kind="relationship" relationship="rootViewController" id="Vby-Sj-qp9"/>
+                        <segue destination="sMZ-aD-HKa" kind="relationship" relationship="rootViewController" id="ieI-xH-kX0"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2c-Cf-Nfa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,23 +24,33 @@
             <point key="canvasLocation" x="485" y="-210"/>
         </scene>
         <!--首页-->
-        <scene sceneID="5Jf-eg-pAB">
+        <scene sceneID="xHP-Zn-OWi">
             <objects>
-                <viewController id="Urq-Kc-qiz" customClass="HomeViewController" customModule="WeiBo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GR8-N5-XTL"/>
-                        <viewControllerLayoutGuide type="bottom" id="KtD-P8-wc3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UgZ-gD-rsE">
+                <tableViewController id="sMZ-aD-HKa" customClass="HomeViewController" customModule="WeiBo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wJB-Z1-app">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="首页" id="QT4-Ea-b9J"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XMg-ru-HXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeCell" id="nFO-8v-EOF">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nFO-8v-EOF" id="Hds-gR-T16">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="sMZ-aD-HKa" id="dVX-kz-if1"/>
+                            <outlet property="delegate" destination="sMZ-aD-HKa" id="hOX-30-aLG"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="首页" id="Kyd-8C-l7N"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p0U-er-KkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1196" y="-210"/>
+            <point key="canvasLocation" x="1182" y="-234"/>
         </scene>
     </scenes>
     <resources>

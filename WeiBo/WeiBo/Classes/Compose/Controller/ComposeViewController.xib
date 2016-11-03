@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComposeViewController" customModule="WeiBo" customModuleProvider="target">
+            <connections>
+                <outlet property="picPickerConstraintHeight" destination="Y5R-NM-nXP" id="2fl-Ud-of6"/>
+                <outlet property="textView" destination="6Jn-OZ-2Qv" id="ncP-C9-r80"/>
+                <outlet property="toolBar" destination="cOn-c4-nTH" id="Ecs-Yc-1Ti"/>
+                <outlet property="toolBarConstraintBottom" destination="IYk-Ik-WNk" id="bzK-rQ-gNc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Jn-OZ-2Qv" customClass="ComposeTextView" customModule="WeiBo" customModuleProvider="target">
+                    <rect key="frame" x="5" y="5" width="590" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="Mdz-IM-zet"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="cZG-MI-nMB"/>
+                    </connections>
+                </textView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="P1m-Fi-cM8" customClass="PicCollectionView" customModule="WeiBo" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.9036395733" green="0.8072791466" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Y5R-NM-nXP">
+                            <variation key="widthClass=compact" constant="200"/>
+                        </constraint>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="t7m-MU-Kek">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Y5R-NM-nXP"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Y5R-NM-nXP"/>
+                        </mask>
+                    </variation>
+                </collectionView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cOn-c4-nTH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="hdw-JO-VCU"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem id="FzL-89-saR"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="vqz-zr-fFR"/>
+                        <barButtonItem image="compose_toolbar_picture" id="Y0i-W1-OcU">
+                            <connections>
+                                <action selector="uploadBarButtonClick:" destination="-1" id="puM-eE-vG3"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="gvM-Js-Jl2"/>
+                        <barButtonItem image="compose_mentionbutton_background" id="skG-pG-Jix"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="mMl-vr-Ykg"/>
+                        <barButtonItem image="compose_trendbutton_background" id="irO-vE-qHr"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="pgI-HZ-2kd"/>
+                        <barButtonItem image="compose_emoticonbutton_background" id="XYz-I5-gyT"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="XFP-MG-264"/>
+                        <barButtonItem image="compose_keyboardbutton_background" id="Fnc-Tg-29h"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="hcx-nS-fb1"/>
+                        <barButtonItem id="Gpr-Cw-70r"/>
+                    </items>
+                    <color key="tintColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="hdw-JO-VCU"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="hdw-JO-VCU"/>
+                        </mask>
+                    </variation>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="P1m-Fi-cM8" secondAttribute="trailing" id="0l6-Xk-gai"/>
+                <constraint firstItem="cOn-c4-nTH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AgY-RK-JpH"/>
+                <constraint firstAttribute="bottom" secondItem="cOn-c4-nTH" secondAttribute="bottom" id="IYk-Ik-WNk"/>
+                <constraint firstAttribute="trailing" secondItem="6Jn-OZ-2Qv" secondAttribute="trailing" constant="5" id="Odv-Vl-Ora"/>
+                <constraint firstItem="P1m-Fi-cM8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S2t-qZ-zrE"/>
+                <constraint firstAttribute="trailing" secondItem="cOn-c4-nTH" secondAttribute="trailing" id="VAn-kV-T85"/>
+                <constraint firstItem="cOn-c4-nTH" firstAttribute="top" secondItem="P1m-Fi-cM8" secondAttribute="bottom" id="X6J-zN-i6I"/>
+                <constraint firstItem="6Jn-OZ-2Qv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="kyi-NX-0Id"/>
+                <constraint firstItem="6Jn-OZ-2Qv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="z4H-sa-hzy"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="P1m-Fi-cM8"/>
+                    <exclude reference="cOn-c4-nTH"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="0l6-Xk-gai"/>
+                    <exclude reference="S2t-qZ-zrE"/>
+                    <exclude reference="AgY-RK-JpH"/>
+                    <exclude reference="IYk-Ik-WNk"/>
+                    <exclude reference="VAn-kV-T85"/>
+                    <exclude reference="X6J-zN-i6I"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="P1m-Fi-cM8"/>
+                    <include reference="cOn-c4-nTH"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="0l6-Xk-gai"/>
+                    <include reference="S2t-qZ-zrE"/>
+                    <include reference="AgY-RK-JpH"/>
+                    <include reference="IYk-Ik-WNk"/>
+                    <include reference="VAn-kV-T85"/>
+                    <include reference="X6J-zN-i6I"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="288" y="161"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="compose_emoticonbutton_background" width="24" height="24"/>
+        <image name="compose_keyboardbutton_background" width="24" height="24"/>
+        <image name="compose_mentionbutton_background" width="24" height="24"/>
+        <image name="compose_toolbar_picture" width="24" height="24"/>
+        <image name="compose_trendbutton_background" width="24" height="24"/>
+    </resources>
+</document>
