@@ -1,4 +1,4 @@
 # weibo
-*Markdown语法*
+*Swift版本*
 #### 简介
-simulate official App to actualize basal function
+模仿微博一部分功能实现
